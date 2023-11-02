@@ -1,0 +1,6 @@
+.artTable, .artTable th, .artTable td, .artTable tr{
+    border: 1px solid black;
+}
+form {
+    display: inline;
+}

@@ -1,0 +1,92 @@
+header {                        /*Header*/
+    margin: auto;
+    background-color: #2f3842;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-width: 1575px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header ul.firstUl li {
+    float: left;
+    line-height:80px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.TextImage {
+    width: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+input { 
+    font-size: 18px; 
+    height: 40px;
+    width: 400px;
+    padding-top: 5px;
+}
+.dropdownSearch {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    float: right;
+}
+.searchDropdownContent {
+   display: none;
+}
+.sectionDropdownContent {
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.show {
+    display:block;
+}
+.searchButton {
+    border: 2px solid white;
+    background-color: #2f3842;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+}
+.sectionUl {
+    float: left;
+}
+.border {
+    border-left: 1px solid white;
+}
+.sectionUl ul {
+    padding-right: 80px;
+    padding-left: 30px;
+}
+.sectionUl a {
+    text-align: left;
+}
+.sectionUl li {
+    padding-bottom: 7px;
+}
+.division {
+    padding-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}

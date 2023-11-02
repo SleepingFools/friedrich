@@ -1,0 +1,40 @@
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+}
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 10px;
+}
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+}
+div.form-element {
+    margin: 20px 0;
+}
+button.loginButton {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    background: yellowgreen;
+    color: white;
+    border: none;
+}
+p.success,
+p.error {
+    color: white;
+    background: yellowgreen;
+    color: white;
+    border: none;
+}
+p.error {
+    background: orangered;
+}
